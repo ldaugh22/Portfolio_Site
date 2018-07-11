@@ -1,0 +1,182 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./Images/denim.jpg);
+
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+
+/*
+*
+* common
+*
+*/
+
+.center {
+  text-align: center;
+}
+
+/*
+*
+* header
+*
+*/
+
+#header {
+  min-height: 80px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.26);
+  background-color: white;
+}
+.header_inner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header_name, .header_job {
+  color: #02b3e4;
+  vertical-align: baseline;
+}
+.header_name {
+  float: right;
+  font-weight: 500;
+}
+
+.header_job {
+  font-weight: 200;
+}
+.header_logo {
+  height: 46px;
+  width: 46px;
+  margin-left: 0;
+  margin-top: auto;
+  vertical-align: bottom;
+}
+
+/* Main */
+
+main {
+  box-shadow: 0 8px 9px 5px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+/*
+*
+* content
+*
+*/
+
+.main_img {
+  padding: 40px;
+}
+
+.who, .featured_work_title {
+  color: #f7bc7e;
+  padding-left: 15px;
+}
+
+#me, .center {
+  color: #999999;
+}
+
+.who {
+  box-shadow: -4px 3px 5px -2px rgba(0, 0, 5, 0.26);
+}
+#profile {
+  display: flex;
+  flex-wrap: wrap;
+}
+#me {
+  width: 60%;
+  padding-top: 20px;
+}
+
+#photo {
+  width: 30%;
+  height: 100%;
+  max-height: 400px;
+  margin-left: 20px;
+  box-shadow: 0 0 8px 3px rgba(0, 0, 5, 0.26);
+}
+
+.about_me {
+  display: inline-block;
+}
+
+.featured_work {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  width: 100%
+}
+
+#work {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.featured_work_title {
+  box-shadow: -4px 3px 5px -2px rgba(0, 0, 5, 0.26);
+
+}
+
+.work_item, .img {
+  vertical-align: middle;
+}
+
+.other_work_img {
+  padding: 10px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #02b3e4;
+}
+
+a:visited {
+  color: #02b3e4;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*
+*
+*    footer
+*
+*/
+
+#footer {
+    box-shadow: 0 -4px 5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    min-height: 50px;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer_inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social_media {
+  float: right;
+  text-align: left;
+  font-size: .75em;
+}
